@@ -43,7 +43,7 @@ jobs:
         continue-on-error: true
         with:
           start: npm run cy:api
-          env: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          env: GITHUB_TOKEN=${{ secrets.ACTIONS_TOKEN }}
 
       - name: List files
         run: ls
