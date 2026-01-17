@@ -7,5 +7,5 @@ node_modules
 pabot_results
 .pabotsuitenames
 report
-mochawesome-report/*
+mochawesome-report/
 cypress/screenshots/

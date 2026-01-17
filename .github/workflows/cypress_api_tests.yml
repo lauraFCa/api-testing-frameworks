@@ -103,7 +103,7 @@ jobs:
           # Tests Run Report
 
           Total Suites: {report['stats']['suites']}
-          Run duration: {report['stats']['duration']}\n
+          Run duration: {report['stats']['duration']} ms\n
 
           Tests | Amount | Percentage
           -- | -- | -- 
